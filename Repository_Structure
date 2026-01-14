@@ -1,0 +1,24 @@
+kubernetes-multi-tier-application/
+│
+├── namespace.yaml
+│
+├── Repository_Structure
+├── database/
+│   ├── database-configmap.yaml
+│   ├── database-secret.yaml
+│   ├── database-deployment.yaml
+│   └── database-service.yaml
+│
+├── backend/
+│   ├── backend-configmap.yaml
+│   ├── backend-deployment.yaml
+│   └── backend-service.yaml
+│
+├── frontend/
+│   ├── frontend-configmap.yaml
+│   ├── frontend-html-configmap.yaml
+│   ├── nginx-config.yaml
+│   ├── frontend-deployment.yaml
+│   └── frontend-service.yaml
+│
+└── README.md

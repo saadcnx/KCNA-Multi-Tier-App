@@ -1,0 +1,17 @@
+# Check cluster information
+kubectl cluster-info
+
+# Verify node status
+kubectl get nodes
+
+# Check if all system pods are running
+kubectl get pods -n kube-system
+
+# Create namespace for the lab
+kubectl create namespace multi-tier-app
+
+# Set the namespace as default for this session
+kubectl config set-context --current --namespace=multi-tier-app
+
+# Verify namespace creation
+kubectl get namespaces
